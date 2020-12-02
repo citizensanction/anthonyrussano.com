@@ -7,11 +7,10 @@ toc: false
 
 https://www.naturalhealingsearch.com
 
-Anthony Russano created NaturalHealingSearch.com a number of years ago.  The site was originally named AlchemistCookbook.com
+Natural Healing Search is an online encyclopedia created and maintained by Anthony Russano. There are more than 200 articles published to date.
 
-NaturalHealingSearch.com is a continually updated encyclopedia of more than 200 of natural healing items.  The site includes an alphabetical list of articles, a keyword glossary and cross index of terms, as well as a full-text search feature, all for free without any registration process.
+The mission of Natural Healing Search is to publish curated research from respected, peer-review journals.
 
-The focus of the Natural Healing Search is to curate cutting-edge research papaers published by respected, peer-review science journals and present the data in a meaningful way for end users to sift through.
-
+The goal of this website is to present the information in a meaningful way for users to engage with.  The layout includes a full-text search, alphabetical list of articles, keyword cross-index, and glossary of terms.
 
 <!-- <img src="https://res.cloudinary.com/alchemist-cookbook/image/upload/w_200,f_auto/anthony-russano/me.jpg" style="border-radius: 5px; float:left; margin: 5px;"> -->
