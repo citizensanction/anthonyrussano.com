@@ -9,7 +9,7 @@ menu:
 customize:
     logo:
         width: 165
-        height: 60
+        height: 84
         url: images/logo-header.png
     theme_color: '#006bde'
     highlight: androidstudio
@@ -17,12 +17,7 @@ customize:
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
-        twitter: /
-        facebook: /
-        stack-overflow: /
-        github: https://github.com/ppoffice/hexo-theme-hueman
-        weibo: /
-        rss: /
+        bitcoin: 
 
 # Widgets
 widgets:
