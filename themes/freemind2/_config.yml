@@ -1,0 +1,15 @@
+slogan:
+
+theme: paper
+inverse: true
+
+menu:
+
+widgets:
+- footer
+
+rss:
+fancybox: false
+favicon: favicon.png
+
+disqus_shortname: 

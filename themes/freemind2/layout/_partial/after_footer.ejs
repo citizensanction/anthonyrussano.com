@@ -1,0 +1,19 @@
+
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="<%- url_for('js/bootstrap.min.js') %>"></script>
+<script src="<%- url_for('js/main.js') %>"></script>
+<script src="<%- url_for('js/search.js') %>"></script> 
+
+<% if (config.search) { %>
+   <script type="text/javascript">      
+     var search_path = "<%- url_for(config.search.path) %>";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "<%- url_for('search.xml') %>";
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+<% } %>

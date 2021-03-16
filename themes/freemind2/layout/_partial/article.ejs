@@ -1,0 +1,20 @@
+<div class="row <% if (post) { %>post<% } else { %>page<% } %>">
+<% if (post) { %>
+<div id="top_meta"></div>
+<div class="col-md-9">
+<% } else { %>
+<div id="top_meta"></div>
+<div class="col-md-9">
+<% } %>
+<h1><%- item.title %></h1>
+<%- item.content %>
+
+</div>
+
+<% if (post) { %>
+<div id="side_meta">
+	<%- partial('post/meta', {item: item}) %>
+</div>
+<% } else { %>
+<% } %>	
+</div><!-- row -->

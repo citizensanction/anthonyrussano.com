@@ -1,0 +1,22 @@
+<%- partial('_partial/head') %>
+ <body>
+   <h1 style="text-align:center;">Anthony Russano</h1>
+   <div style="text-align:center;">
+    <h4>
+      <a href="<%- url_for(config.root) %>">Home</a> ⋄ 
+      <a href="<%- url_for('articles/') %>">Articles</a> ⋄ 
+      <a href="<%- url_for('keywords/') %>">Keywords</a>
+      <!-- <a href="https://www.podbean.com/lsw/naturalscholar" target="_blank">Podcast</a> -->
+    </h4>
+  </div>
+   <div class="container">
+     <div>
+      <%- body %>
+     </div>
+   </div>
+   <div class="container-narrow">
+     <footer><%- partial('_partial/footer') %></footer>
+   </div>
+ <%- partial('_partial/after_footer') %>
+</body>
+</html>

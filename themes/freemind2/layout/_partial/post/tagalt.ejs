@@ -1,0 +1,9 @@
+<ul class="list-unstyled">
+<li><%
+var tags = [];
+item.tags.sort('name').forEach(function(tag){
+  tags.push('<a href="../' + tag.path + '">' + tag.name + '</a>');
+});
+%></li>
+<%- tags.join(', ') %>
+</ul>
