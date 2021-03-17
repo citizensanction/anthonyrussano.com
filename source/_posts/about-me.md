@@ -1,9 +1,8 @@
 ---
 title: About Me
-category: Bio
-layout: page
+tags: 
+- Test
 ---
-
 I like to publish research.
 
 ## Family Bio
