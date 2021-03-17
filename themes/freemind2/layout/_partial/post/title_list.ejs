@@ -1,13 +1,2 @@
 <h4><a href="../../<%- item.path %>"><%= item.title %><b class="caret"></b></a></h4>
-	<%= strip_html(item.excerpt) %><br>
-		<i>Keywords: 
-		<%
-		var tags = [];
-		item.tags.sort('name').forEach(function(tag){
-			tags.push(' <a id="tag" href="../../' + tag.path + '">' + tag.name + '</a>');
-		});
-		%>
-		<%- tags.join(', ') %></i><br><hr>
-		<% if (item.buynow) { %>
-		<% } else { %>
-		<% } %>
+	<%= strip_html(item.excerpt) %><br><hr>

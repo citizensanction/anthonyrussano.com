@@ -12,17 +12,7 @@
         <a href="<%- url_for(post.path) %>"><%= post.title %><b class="caret"></b></a>
       </h4>
     <%= strip_html(post.excerpt) %>
-    <br>
-     <i>Keywords: 
-       <%
-         var tags = [];
-         post.tags.forEach(function(tag){
-         tags.push(' <a href="../' + tag.path + '">' + tag.name + '</a>');
-         });
-         %>
-         <%- tags.join(', ') %>
-       </i>
-       <br><hr>
+    <br><hr>
     <% }); %>
   </td>
 </tr>

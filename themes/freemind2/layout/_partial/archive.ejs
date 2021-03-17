@@ -13,41 +13,24 @@
    var last_year = 1970;
    var is_first_year = 1;
    %>
-<div class="row page">
-	<div class="col-md-12">
-    <% if (page.category || page.tag) { %>
-        <table style="width:100%">
-          <thead>
-              <tr>
-                <th>Displaying <%= page.posts.length %> item(s) related to <%= page.tag %></th>
-              </tr>
-          </thead>
-          <tbody>
-            <tr><td><div class="alert" style="background-color: #2196f3;border-radius: 5px;">
-              <p style="font-style:italic;font-size: 150%"><b><%= title %></b></p>
-              <% for (var link in site.data.description) { %>
-              <% if (page.tag == link) { %>
-              <p style="font-style:italic;font-size: 125%;margin-left: 10px;"><%= site.data.description[link] %></p>
-              <% } else { %>
-              <% } %>
-              <% } %>
-            </div></td></tr>
-            <tr>
-              <td>
-         <% page.posts.sort('title').each(function(item){ %>
-         <%- partial('post/title_list', {item: item, index: true}) %>
-         <% }); %>
-        </td>
-        </tbody>
-      </table>
-      <script>
-        $(document).ready(function(){
-          $("a:contains(<%= page.tag %>)").css({"font-style": "italic", "font-weight": "bold","font-size": "125%"});
-        });
-      </script>
-      <br>
-	  </div>
-	</div>	
-  <% } else { %>
-  <% } %>
-</div>
+<table style="width:100%">
+  <thead>
+    <tr>
+      <th><i><h5>Displaying <%= page.posts.length %> item(s) related to <%= page.tag %></h5>
+        <% for (var link in site.data.description) { %>
+          <% if (page.tag == link) { %>
+          <%= site.data.description[link] %></i>
+          <% } else { %>
+          <% } %>
+          <% } %>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <td>
+      <% page.posts.sort('title').each(function(item){ %>
+      <%- partial('post/title_list', {item: item, index: true}) %>
+      <% }); %>
+    </td>
+  </tbody>
+</table>
