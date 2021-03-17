@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: Me
 tags: 
 - Test
 ---
@@ -10,8 +10,6 @@ I like to publish research.
 My Family is from New York.  I was born in Jamaica Queens.
 
 I am happily married to my beautiful wife Danielle.  We met on a beach in Del Mar.
-
-![Anthony Russano and wife Danielle (left)](https://res.cloudinary.com/alchemist-cookbook/image/upload/w_250,f_auto/anthony-russano/me.jpg)
 
 ## Work History
 
